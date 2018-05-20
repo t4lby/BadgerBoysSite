@@ -20,6 +20,16 @@ namespace BadgerBoysWebApp.Controllers
             return View();
         }
 
+        public IActionResult Gigs()
+        {
+            return View();
+        }
+
+        public IActionResult Media()
+        {
+            return View();
+        }
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
