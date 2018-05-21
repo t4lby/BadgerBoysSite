@@ -25,6 +25,11 @@ namespace BadgerBoysWebApp.Controllers
             return View();
         }
 
+        public IActionResult Testimonials()
+        {
+            return View();
+        }
+
         public IActionResult Media()
         {
             return View();

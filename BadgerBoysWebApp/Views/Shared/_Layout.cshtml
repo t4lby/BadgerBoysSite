@@ -11,6 +11,7 @@
     @Html.Raw(JavaScriptSnippet.FullScript)
 </head>
 <body>
+    
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -28,7 +29,8 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Gigs">Gigs</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Media">Media</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Testimonials">Testimonials</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact / Book</a></li>
                 </ul>
             </div>
         </div>
@@ -62,7 +64,7 @@
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
 
-    
+
 
     @RenderSection("footer", required: false)
     @RenderSection("Scripts", required: false)
