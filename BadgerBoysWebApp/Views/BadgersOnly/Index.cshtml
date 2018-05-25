@@ -1,0 +1,13 @@
+﻿@model BadgerBoysWebApp.Models.Login
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+@using (Html.BeginForm())
+{
+    @Html.PasswordFor(m => m.Password);
+    <input type="submit" value="Log in" >
+}
+
+

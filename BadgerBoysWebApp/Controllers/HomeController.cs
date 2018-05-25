@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Xml.Linq;
+using BadgerBoysWebApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using BadgerBoysWebApp.Data;
 
 namespace BadgerBoysWebApp.Controllers
 {
@@ -27,7 +30,7 @@ namespace BadgerBoysWebApp.Controllers
 
         public IActionResult Testimonials()
         {
-            return View();
+            return View(DataAccess.GetAllTestimonials());
         }
 
         public IActionResult Media()
