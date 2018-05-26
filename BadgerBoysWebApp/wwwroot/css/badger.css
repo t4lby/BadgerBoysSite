@@ -14,7 +14,7 @@
 input,
 select,
 textarea {
-    max-width: 280px;
+    
 }
 
 /* Hide/rearrange for smaller screens */
@@ -44,5 +44,17 @@ textarea {
     height: 315px;
     max-width: 560px;
     max-height: 315px;
+}
+
+#testimonial-content {
+    height: 8em;
+}
+
+#testimonial-holder {
+    background-color: #c5c5c569;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: white;
+    border-style: solid;
 }
 

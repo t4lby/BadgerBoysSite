@@ -4,5 +4,15 @@
 }
 
 <h2>Testimonials</h2>
-<p>@Model[0].Content</p>
+<hr />
+<p>Many of the reviews below refer to us under our former name "The Threetles".</p>
+@foreach (var item in Model)
+{
+    <div class="col-md-4 col-sm-6" id="testimonial-holder">
+        <p>@item.Name</p>
+        <p>@item.Content</p>
+    </div>
+}
+<div></div>
+
 

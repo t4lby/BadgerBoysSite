@@ -1,0 +1,40 @@
+﻿@model BadgerBoysWebApp.Models.Testimonial
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit Testimonial</h2>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="EditTestimonial">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Index" class="control-label"></label>
+                <p>@Model.Index</p>
+                @Html.HiddenFor(t => t.Index)
+                
+                <span asp-validation-for="Index" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Content" class="control-label"></label>
+                <textarea asp-for="Content" class="form-control" id="testimonial-content"></textarea>
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ListTestimonials">Back to List</a>
+</div>
+

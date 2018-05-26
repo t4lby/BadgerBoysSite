@@ -1,15 +1,61 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <gigs>
-    
-  </gigs>
+  <gigs></gigs>
   <testimonials>
-    <testimonial id="1">
+    <testimonial>
+      <name>The Saxon Inn, Child Okeford</name>
+      <content>“Thank you all very much.
+The New Years Eve Gig was a huge success, we have had lots of enthusiastic comments from our customers. We will call on you in the future!”</content>
+    </testimonial>
+    <testimonial>
       <name>The White Horse Inn, Stourpaine</name>
-      <content>
-        “Well those of you who were here last evening got to enjoy The Threetles in a different light. They were the best we’d ever seen them and they entertained us from the moment they started to the moment they finished. They performed many classic covers with a few beatles songs thrown in.
-        Not many bands get people up dancing straight away and keep them dancing all night. Well done to Matt, Tommie and Alex”
-      </content>
+      <content>Well those of you who were here last evening got to enjoy the boys in a different light. They were the best we’d ever seen them and they entertained us from the moment they started to the moment they finished. They performed many classic covers with a few beatles songs thrown in.
+Not many bands get people up dancing straight away and keep them dancing all night. Well done to Matt, Tommie &amp; Alex”</content>
+    </testimonial>
+    <testimonial>
+      <name></name>
+      <content>“I’ve been to every one of the boys gigs and they’ve never failed to impress me. I’d recommend The Threetles to anyone without hesitation. They know how to get a crowd up on the dance floor and their 3 way dynamic is just perfect.”</content>
+    </testimonial>
+    <testimonial>
+      <name>Wendy Crichton</name>
+      <content>“Such an entertaining group of lads. They had a very good rapport with the crowd and made you just want to dance, dance, dance! They sounded brilliant too – I would sooooooooooo recommend them!”</content>
+    </testimonial>
+    <testimonial>
+      <name>John Frear, The Plough</name>
+      <content>“The boys played at The Plough, Manston on 20th June, a venue renowned for live music in the local north Dorset area. I first saw them at our Beer Festival the year previous on an Open Mic day and felt they deserved a gig. How impressed I was, they turned The Plough into a very vibrant country pub with their blend of great music, superb singing and most of all their ability to punch above their weight. They are very young guys!!, but extremely talented and I thank them for bringing even the most diehard of regulars to the dance floor with their great sound.
+I actually felt the rare need to thank them on our Pub Website and posted a short video taken at the event. Thank you to The boys and I look forward to your next gig in December, by which stage the word will have spread much more.”</content>
+    </testimonial>
+    <testimonial>
+      <name>Gail Morris</name>
+      <content>“I have not seen a live band play since my twenties and wow I have been missing out! These three young lads were fantastic they had everyone up dancing and joining in when appropriate. Great night and thank you lads for helping us raise £450 for our project</content>
+    </testimonial>
+    <testimonial>
+      <name> Val Burton</name>
+      <content>“3 genuine lads who got us all dancing. A brilliant up and coming band, a live performance I won’t be forgetting!”</content>
+    </testimonial>
+    <testimonial>
+      <name></name>
+      <content>“Thank you for a very enjoyable evening”</content>
+    </testimonial>
+    <testimonial>
+      <name></name>
+      <content>“They (The Badger Boys) had very good crowd interaction and had most of us dancing!”</content>
+    </testimonial>
+    <testimonial>
+      <name></name>
+      <content>“The Threetles make Beatles music seem fresh with their unique approach and enthusiasm”</content>
+    </testimonial>
+    <testimonial>
+      <name>William Barnes Primary School</name>
+      <content>“Possibly the best Beatles cover band I have seen ever, anywhere, anytime”</content>
+    </testimonial>
+    <testimonial>
+      <name>Sue Lilley, Lydlinch Beatles Night</name>
+      <content>“Such talent! A great evening of live Beatles music from 3 very talented young musicians. We will be booking The Threetles again if you can book us into your diary!”</content>
+    </testimonial>
+    <testimonial>
+      <name>The White Horse, Stourpaine</name>
+      <content>“These guys played in our pub in January, all three are very talented musicians and together they’re an amazing young Beatles Tribute Band. We thought they were a fab three back then but they returned recently to play at our ‘Steam Up’ event and completely rocked the joint – a great atmosphere with lots of dancing, toe tapping and singing along. Can’t wait to have them back!”</content>
     </testimonial>
   </testimonials>
 </root>

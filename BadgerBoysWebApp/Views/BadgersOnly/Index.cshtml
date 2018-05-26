@@ -1,13 +1,11 @@
-﻿@model BadgerBoysWebApp.Models.Login
-@{
-    ViewData["Title"] = "Index";
+﻿@{
+    ViewData["Title"] = "Badgers Only";
 }
 
-<h2>Index</h2>
-@using (Html.BeginForm())
-{
-    @Html.PasswordFor(m => m.Password);
-    <input type="submit" value="Log in" >
-}
+<h2>What would you like to edit?</h2>
+<ul>
+    <li><a asp-area="" asp-controller="BadgersOnly" asp-action="ListTestimonials">Testimonials</a></li>
+</ul>
+
 
 
