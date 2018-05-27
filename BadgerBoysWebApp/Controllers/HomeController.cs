@@ -25,7 +25,10 @@ namespace BadgerBoysWebApp.Controllers
 
         public IActionResult Gigs()
         {
-            return View();
+            return View(
+                DataAccess.GetAllGigs()
+                .Where(g => g.Date > DateTime.Now)
+                .OrderBy(g => g.Date));
         }
 
         public IActionResult Testimonials()

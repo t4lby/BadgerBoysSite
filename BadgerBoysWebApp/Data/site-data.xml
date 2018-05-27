@@ -1,6 +1,103 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <gigs></gigs>
+  <gigs>
+    <gig>
+      <location>Manston Beer Festival</location>
+      <description>We are headlining the beer festival! We start at: *MATT*</description>
+      <link>http://www.ploughmanston.co.uk/</link>
+      <date>
+        <year>2018</year>
+        <month>7</month>
+        <day>14</day>
+        <hour>0</hour>
+        <minute>0</minute>
+      </date>
+    </gig>
+    <gig>
+      <location>Marnhull Festival</location>
+      <description>Our first appearance at MarnhullFest, we start at *MATT*</description>
+      <link>http://www.marnhullfest.org/</link>
+      <date>
+        <year>2018</year>
+        <month>7</month>
+        <day>14</day>
+        <hour>0</hour>
+        <minute>0</minute>
+      </date>
+    </gig>
+    <gig>
+      <location>Private Function</location>
+      <description>Private party</description>
+      <link></link>
+      <date>
+        <year>2018</year>
+        <month>6</month>
+        <day>30</day>
+        <hour>0</hour>
+        <minute>0</minute>
+      </date>
+    </gig>
+    <gig>
+      <location>Winterbourne Stickland Football Club</location>
+      <description>We return to the winterbourne stickland football club for the second time!</description>
+      <link></link>
+      <date>
+        <year>2018</year>
+        <month>6</month>
+        <day>29</day>
+        <hour>0</hour>
+        <minute>0</minute>
+      </date>
+    </gig>
+    <gig>
+      <location>Private Function</location>
+      <description>Private party</description>
+      <link></link>
+      <date>
+        <year>2018</year>
+        <month>6</month>
+        <day>24</day>
+        <hour>14</hour>
+        <minute>0</minute>
+      </date>
+    </gig>
+    <gig>
+      <location>Dorset Fest</location>
+      <description>Small local festival on bulbarrow hill</description>
+      <link>http://www.midsummermusic.co.uk/</link>
+      <date>
+        <year>2018</year>
+        <month>6</month>
+        <day>15</day>
+        <hour>18</hour>
+        <minute>0</minute>
+      </date>
+    </gig>
+    <gig>
+      <location>Sturminster Newton Football Club</location>
+      <description>Stur footie club hosts the boys for the first time!</description>
+      <link></link>
+      <date>
+        <year>2018</year>
+        <month>5</month>
+        <day>12</day>
+        <hour>0</hour>
+        <minute>0</minute>
+      </date>
+    </gig>
+    <gig>
+      <location>The White Horse Stourpaine</location>
+      <description>We kick of at 9pm!</description>
+      <link>https://www.whitehorse-stourpaine.co.uk/</link>
+      <date>
+        <year>2018</year>
+        <month>5</month>
+        <day>11</day>
+        <hour>21</hour>
+        <minute>0</minute>
+      </date>
+    </gig>
+  </gigs>
   <testimonials>
     <testimonial>
       <name>The Saxon Inn, Child Okeford</name>

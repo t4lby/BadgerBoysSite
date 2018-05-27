@@ -1,0 +1,52 @@
+﻿@model IEnumerable<BadgerBoysWebApp.Models.Gig>
+
+@{
+    ViewData["Title"] = "Gigs";
+}
+
+<h2>All Gigs</h2>
+
+<p>
+    <a asp-action="AddGig">Add New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Location)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Date)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Link)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Link)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "EditGig", new { index = item.Index }) |
+                @Html.ActionLink("Delete", "DeleteGig", new { index = item.Index })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

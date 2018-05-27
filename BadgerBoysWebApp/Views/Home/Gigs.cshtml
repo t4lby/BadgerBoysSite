@@ -1,6 +1,46 @@
-﻿
+﻿@model IEnumerable<BadgerBoysWebApp.Models.Gig>
+
 @{
     ViewData["Title"] = "Gigs";
 }
 
-<h2>Gigs</h2>
+<h2>Upcoming Gigs</h2>
+
+<hr />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Link)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Location)
+                </td>
+                <td>
+                    @item.Date.ToLongDateString()
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Link)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
