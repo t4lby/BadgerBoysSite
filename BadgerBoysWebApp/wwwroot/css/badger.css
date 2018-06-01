@@ -32,6 +32,7 @@ textarea {
 #index-logo {
     padding-right: 20%;
     padding-left: 20%;
+    margin-bottom: 20px;
 }
 
 #index-logo img {
@@ -58,3 +59,16 @@ textarea {
     border-style: solid;
 }
 
+.badger-boy {
+    width: 250px;
+    margin: 25px;
+}
+
+.bio-photo img {
+    width: 325px;
+    padding: 10px;
+}
+
+.bio-text {
+    padding: 10px;
+}

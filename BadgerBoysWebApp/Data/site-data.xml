@@ -2,26 +2,62 @@
 <root>
   <gigs>
     <gig>
+      <location>Sturminster Football Club</location>
+      <description>Back by request to see the New Year in!!</description>
+      <link>https://www.facebook.com/snufc/</link>
+      <date>
+        <year>2018</year>
+        <month>12</month>
+        <day>31</day>
+        <hour>21</hour>
+        <minute>0</minute>
+      </date>
+    </gig>
+    <gig>
+      <location>Private Function</location>
+      <description>Private Party</description>
+      <link></link>
+      <date>
+        <year>2018</year>
+        <month>7</month>
+        <day>21</day>
+        <hour>21</hour>
+        <minute>0</minute>
+      </date>
+    </gig>
+    <gig>
+      <location>Child Okeford School</location>
+      <description>PTFA Event</description>
+      <link></link>
+      <date>
+        <year>2018</year>
+        <month>7</month>
+        <day>20</day>
+        <hour>20</hour>
+        <minute>30</minute>
+      </date>
+    </gig>
+    <gig>
       <location>Manston Beer Festival</location>
-      <description>We are headlining the beer festival! We start at: *MATT*</description>
+      <description>We are headlining the beer festival! We start at: 9pm</description>
       <link>http://www.ploughmanston.co.uk/</link>
       <date>
         <year>2018</year>
         <month>7</month>
         <day>14</day>
-        <hour>0</hour>
+        <hour>21</hour>
         <minute>0</minute>
       </date>
     </gig>
     <gig>
       <location>Marnhull Festival</location>
-      <description>Our first appearance at MarnhullFest, we start at *MATT*</description>
+      <description>Our first appearance at MarnhullFest, we start at: 5pm</description>
       <link>http://www.marnhullfest.org/</link>
       <date>
         <year>2018</year>
         <month>7</month>
         <day>14</day>
-        <hour>0</hour>
+        <hour>17</hour>
         <minute>0</minute>
       </date>
     </gig>
@@ -33,20 +69,20 @@
         <year>2018</year>
         <month>6</month>
         <day>30</day>
-        <hour>0</hour>
+        <hour>21</hour>
         <minute>0</minute>
       </date>
     </gig>
     <gig>
       <location>Winterbourne Stickland Football Club</location>
-      <description>We return to the winterbourne stickland football club for the second time!</description>
-      <link></link>
+      <description>We return to the Winterborne Stickland Football Club for the second time!</description>
+      <link>https://www.facebook.com/WSSportsClub/</link>
       <date>
         <year>2018</year>
         <month>6</month>
         <day>29</day>
-        <hour>0</hour>
-        <minute>0</minute>
+        <hour>20</hour>
+        <minute>30</minute>
       </date>
     </gig>
     <gig>
@@ -63,7 +99,7 @@
     </gig>
     <gig>
       <location>Dorset Fest</location>
-      <description>Small local festival on bulbarrow hill</description>
+      <description>Local festival at Warren Farm on Bulbarrow hill</description>
       <link>http://www.midsummermusic.co.uk/</link>
       <date>
         <year>2018</year>
@@ -74,6 +110,18 @@
       </date>
     </gig>
     <gig>
+      <location>The Three Okefords Steam Rally</location>
+      <description>Our first time playing at the Three Okefords rally!</description>
+      <link>http://www.threeokefordspreservationsociety.co.uk/</link>
+      <date>
+        <year>2018</year>
+        <month>5</month>
+        <day>19</day>
+        <hour>14</hour>
+        <minute>30</minute>
+      </date>
+    </gig>
+    <gig>
       <location>Sturminster Newton Football Club</location>
       <description>Stur footie club hosts the boys for the first time!</description>
       <link></link>
@@ -81,13 +129,13 @@
         <year>2018</year>
         <month>5</month>
         <day>12</day>
-        <hour>0</hour>
+        <hour>21</hour>
         <minute>0</minute>
       </date>
     </gig>
     <gig>
       <location>The White Horse Stourpaine</location>
-      <description>We kick of at 9pm!</description>
+      <description>Steam-Up event where we kick of at 9pm!</description>
       <link>https://www.whitehorse-stourpaine.co.uk/</link>
       <date>
         <year>2018</year>
@@ -106,7 +154,7 @@ The New Years Eve Gig was a huge success, we have had lots of enthusiastic comme
     </testimonial>
     <testimonial>
       <name>The White Horse Inn, Stourpaine</name>
-      <content>Well those of you who were here last evening got to enjoy the boys in a different light. They were the best we’d ever seen them and they entertained us from the moment they started to the moment they finished. They performed many classic covers with a few beatles songs thrown in.
+      <content>"Well those of you who were here last evening got to enjoy the boys in a different light. They were the best we’d ever seen them and they entertained us from the moment they started to the moment they finished. They performed many classic covers with a few beatles songs thrown in.
 Not many bands get people up dancing straight away and keep them dancing all night. Well done to Matt, Tommie &amp; Alex”</content>
     </testimonial>
     <testimonial>
@@ -124,7 +172,7 @@ I actually felt the rare need to thank them on our Pub Website and posted a shor
     </testimonial>
     <testimonial>
       <name>Gail Morris</name>
-      <content>“I have not seen a live band play since my twenties and wow I have been missing out! These three young lads were fantastic they had everyone up dancing and joining in when appropriate. Great night and thank you lads for helping us raise £450 for our project</content>
+      <content>“I have not seen a live band play since my twenties and wow I have been missing out! These three young lads were fantastic they had everyone up dancing and joining in when appropriate. Great night and thank you lads for helping us raise £450 for our project"</content>
     </testimonial>
     <testimonial>
       <name> Val Burton</name>
