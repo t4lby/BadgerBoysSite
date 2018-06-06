@@ -5,15 +5,10 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using BadgerBoysWebApp.Data;
 using BadgerBoysWebApp.Models;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BadgerBoysWebApp.Controllers
 {
-    [Authorize]
     public class BadgersOnlyController : Controller
     {
         private static List<Testimonial> _Testimonials = DataAccess.GetAllTestimonials();
@@ -22,29 +17,6 @@ namespace BadgerBoysWebApp.Controllers
         public IActionResult Index()
         {
             return View("Index");
-        }
-
-        [AllowAnonymous]
-        public IActionResult Login()
-        {
-            return View();
-        }
-
-        [AllowAnonymous]
-        [HttpPost]
-        public async Task<IActionResult> Login(Login login)
-        {
-            var claims = new List<Claim>
-            {
-                
-            };
-
-            var claimsIdentity = new ClaimsIdentity(
-                claims, CookieAuthenticationDefaults.AuthenticationScheme);
-            await HttpContext.SignInAsync(
-                CookieAuthenticationDefaults.AuthenticationScheme,
-                new ClaimsPrincipal(claimsIdentity));
-            return Index();
         }
 
         public IActionResult ListTestimonials()

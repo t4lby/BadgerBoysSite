@@ -2,16 +2,13 @@
 
     $(".badger-boy").hover(function () {
             $(this).animate({
-                width: '300px',
-                margin: '0px',
                 opacity: 0.8
             });
         },
         function () {
             $(this).stop();
             $(this).css({
-                width: '250px',
-                margin: '25px',
+                width: '70%',
                 opacity: 1
             });
         }
