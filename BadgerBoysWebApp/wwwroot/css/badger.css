@@ -13,10 +13,19 @@
     src: url("/css/fonts/fixer.ttf") format('truetype');
 }
 
-#title-text {
-    font-family: Fixer;
-    font-size: 250px;
-    line-height: 0.7;
+@font-face {
+    font-family: "Kookaburra";
+    src: url("/css/fonts/kookaburra.otf") format('opentype');
+}
+
+#title-text-large {
+    font-family: Kookaburra;
+    font-size: 150px;
+}
+
+#title-text-small {
+    font-family: Kookaburra;
+    font-size: 90px;
 }
 
 #home-page {
