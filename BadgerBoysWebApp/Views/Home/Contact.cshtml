@@ -1,17 +1,56 @@
-﻿@{
+﻿@model BadgerBoysWebApp.Models.Booking
+@{
     ViewData["Title"] = "Contact";
 }
-<h2>@ViewData["Title"].</h2>
-<h3>@ViewData["Message"]</h3>
+<h2>Contact Us.</h2>
+<hr />
+<h3>Booking Form</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<form asp-action="SubmitBooking">
 
+    <div class="row">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label asp-for="Date" class="control-label"></label>
+                    <input asp-for="Date" class="form-control" />
+                    <span asp-validation-for="Date" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    <textarea asp-for="Description" rows="5" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <input type="submit" value="Send" class="btn btn-default" />
+                    <p>@ViewBag.Message</p>
+                </div>
+            </div>
+        </div>
+
+</form>
+
+<hr />
 <address>
-    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+    <p><strong>Email: </strong> <a href="mailto:badgerboysband@gmail.com">badgerboysband@gmail.com</a><br /></p>
+    <p><strong>Phone Alex: </strong> <a href="tel:+447490413335">07490 413335</a></p>
+    <p><strong>Phone Matt: </strong> <a href="tel:+4407900380799">07900 380799</a></p>
 </address>
