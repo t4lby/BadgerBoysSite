@@ -50,7 +50,7 @@ namespace BadgerBoysWebApp.Controllers
 
             // setup Smtp authentication
             System.Net.NetworkCredential credentials =
-                new System.Net.NetworkCredential("azure_cc18401b53e5436e7acb9457b0a3d640@azure.com", "Polo2468!");
+                new System.Net.NetworkCredential(DataAccess.EmailUser(), DataAccess.EmailPassword());
             client.UseDefaultCredentials = false;
             client.Credentials = credentials;
 
@@ -70,9 +70,13 @@ namespace BadgerBoysWebApp.Controllers
                 
                 ViewBag.Message = "Thank you! We will be in touch shortly";
             }
-            catch (Exception ex)
+            catch (FormatException ex)
             {
-                ViewBag.Message = "Error occured while sending your message." + ex.Message;
+                ViewBag.Message = "Error occured while sending your message. are you sure you've entered a valid email?" + ex.Message;
+            }
+            catch (Exception ex)
+            { 
+                ViewBag.Message = "Error occured while sending your message. " + ex.Message;
             }
 
             

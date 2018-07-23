@@ -2,6 +2,18 @@
 <root>
   <gigs>
     <gig>
+      <location>Private Function</location>
+      <description>Private 30th Party</description>
+      <link></link>
+      <date>
+        <year>2019</year>
+        <month>1</month>
+        <day>26</day>
+        <hour>21</hour>
+        <minute>0</minute>
+      </date>
+    </gig>
+    <gig>
       <location>Sturminster Football Club</location>
       <description>Back by request to see the New Year in!!</description>
       <link>https://www.facebook.com/snufc/</link>
@@ -9,6 +21,78 @@
         <year>2018</year>
         <month>12</month>
         <day>31</day>
+        <hour>21</hour>
+        <minute>0</minute>
+      </date>
+    </gig>
+    <gig>
+      <location>Sturminster Football Club</location>
+      <description>The football club asked us to Badger them for a second time before New Year!</description>
+      <link>https://en-gb.facebook.com/snufc/</link>
+      <date>
+        <year>2018</year>
+        <month>11</month>
+        <day>3</day>
+        <hour>21</hour>
+        <minute>0</minute>
+      </date>
+    </gig>
+    <gig>
+      <location>The Royal Oak, Okeford Fitzpaine</location>
+      <description>We're bringing a lovely bit of music to a lovely pub in Dorset, the Royal Oak!</description>
+      <link>https://en-gb.facebook.com/The-Royal-Oak-Okeford-Fitzpaine-785030748261720/</link>
+      <date>
+        <year>2018</year>
+        <month>10</month>
+        <day>13</day>
+        <hour>21</hour>
+        <minute>0</minute>
+      </date>
+    </gig>
+    <gig>
+      <location>Private Function</location>
+      <description>Wedding</description>
+      <link />
+      <date>
+        <year>2018</year>
+        <month>9</month>
+        <day>15</day>
+        <hour>21</hour>
+        <minute>0</minute>
+      </date>
+    </gig>
+    <gig>
+      <location>The Talbot Inn, Iwerne Minster</location>
+      <description>Its an event in a field.... so we're right at home!!</description>
+      <link>http://www.talbot-iwerne.co.uk/</link>
+      <date>
+        <year>2018</year>
+        <month>8</month>
+        <day>19</day>
+        <hour>17</hour>
+        <minute>0</minute>
+      </date>
+    </gig>
+    <gig>
+      <location>The Swan Inn, Sturminster Newton</location>
+      <description>Asked to bring the party back to The Swan..... so we'll oblige!</description>
+      <link>http://www.swaninnsturminsternewton.co.uk/</link>
+      <date>
+        <year>2018</year>
+        <month>8</month>
+        <day>18</day>
+        <hour>20</hour>
+        <minute>30</minute>
+      </date>
+    </gig>
+    <gig>
+      <location>The Swan, Stalbridge</location>
+      <description>We bring our music to Stalbridge by request, so come out and enjoy!</description>
+      <link>https://en-gb.facebook.com/The-Swan-Stalbridge-New-499464563722712/</link>
+      <date>
+        <year>2018</year>
+        <month>8</month>
+        <day>11</day>
         <hour>21</hour>
         <minute>0</minute>
       </date>
@@ -51,13 +135,13 @@
     </gig>
     <gig>
       <location>Marnhull Festival</location>
-      <description>Our first appearance at MarnhullFest, we start at: 5pm</description>
+      <description>Our first appearance at MarnhullFest, we start at: 2pm</description>
       <link>http://www.marnhullfest.org/</link>
       <date>
         <year>2018</year>
         <month>7</month>
         <day>14</day>
-        <hour>17</hour>
+        <hour>14</hour>
         <minute>0</minute>
       </date>
     </gig>
@@ -158,8 +242,8 @@ The New Years Eve Gig was a huge success, we have had lots of enthusiastic comme
 Not many bands get people up dancing straight away and keep them dancing all night. Well done to Matt, Tommie &amp; Alex”</content>
     </testimonial>
     <testimonial>
-      <name></name>
-      <content>“I’ve been to every one of the boys gigs and they’ve never failed to impress me. I’d recommend The Threetles to anyone without hesitation. They know how to get a crowd up on the dance floor and their 3 way dynamic is just perfect.”</content>
+      <name />
+      <content>“I’ve been to every one of the boys gigs and they’ve never failed to impress me. I’d recommend them to anyone without hesitation. They know how to get a crowd up on the dance floor and their 3 way dynamic is just perfect.”</content>
     </testimonial>
     <testimonial>
       <name>Wendy Crichton</name>

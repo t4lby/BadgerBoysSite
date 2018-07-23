@@ -95,5 +95,19 @@ namespace BadgerBoysWebApp.Data
             }
             doc.Save("Data/site-data.xml");
         }
+
+        public static string EmailUser()
+        {
+            return XDocument.Load("Data/email-account.xml")
+                .Root
+                .Element("usr").Value;
+        }
+
+        public static string EmailPassword()
+        {
+            return XDocument.Load("Data/email-account.xml")
+                .Root
+                .Element("pass").Value;
+        }
     }
 }
