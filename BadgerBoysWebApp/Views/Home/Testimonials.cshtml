@@ -3,17 +3,30 @@
     ViewData["Title"] = "Testimonials";
 }
 
-<h2>Feedback</h2>
+<h2>Feedback.</h2>
 <hr />
 <p>Many of the reviews below refer to us under our former name "The Threetles".</p>
 <div class="container-fluid">
-    @foreach (var item in Model)
-    {
-        <div class="col-md col-sm" id="testimonial-holder">
-            <p>@item.Name</p>
-            <p>@item.Content</p>
-        </div>
-    }
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            @if (item.Index % 2 == 0)
+            {
+                <div class="col-md-4" id="testimonial-holder-1">
+                    <p>@item.Name</p>
+                    <p>@item.Content</p>
+                </div>
+            }
+            else
+            {
+                <div class="col-md-4" id="testimonial-holder-2">
+                    <p>@item.Name</p>
+                    <p>@item.Content</p>
+                </div>
+            }
+
+        }
+    </div>
 </div>
 
 

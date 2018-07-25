@@ -55,12 +55,20 @@
     height: 8em;
 }
 
-#testimonial-holder {
-    background-color: #e8e8e8;
+#testimonial-holder-1 {
     padding-top: 10px;
     padding-bottom: 10px;
     border: white;
     border-style: solid;
+}
+
+#testimonial-holder-2 {
+    background-color: #7d7d7d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: white;
+    border-style: solid;
+    color: white;
 }
 
 .badger-boy {
