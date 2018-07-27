@@ -7,40 +7,39 @@
 <h2>Upcoming Gigs.</h2>
 
 <hr />
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Location)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Date)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Link)
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Location)
-                </td>
-                <td>
-                    @item.Date.ToLongDateString()
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Description)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Link)
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+
+<div class="container">
+    <div class="row headings d-none d-md-flex">
+        <div class="col-md-2 gig-item-detail">
+            <b>@Html.DisplayNameFor(model => model.Location)</b>
+        </div>
+        <div class="col-md-2 gig-item-detail">
+            <b>@Html.DisplayNameFor(model => model.Date)</b>
+        </div>
+        <div class="col-md-4 gig-item-detail">
+            <b>@Html.DisplayNameFor(model => model.Description)</b>
+        </div>
+        <div class="col-md-4 gig-item-detail">
+            <b>@Html.DisplayNameFor(model => model.Link)</b>
+        </div>
+
+    </div>
+    <hr class="d-none d-md-flex" />
+    @foreach (var item in Model)
+    {
+    <div class="row gig-item">
+        <div class="col-md-2 gig-item-detail">
+            <b>@Html.DisplayFor(modelItem => item.Location) </b>
+        </div>
+        <div class="col-md-2 gig-item-detail">
+            @item.Date.ToLongDateString()
+        </div>
+        <div class="col-md-4 gig-item-detail">
+            @Html.DisplayFor(modelItem => item.Description)
+        </div>
+        <div class="col-md-4 gig-item-detail">
+            @Html.DisplayFor(modelItem => item.Link)
+        </div>
+    </div>
+    }
+</div>

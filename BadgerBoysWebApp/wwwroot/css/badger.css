@@ -88,3 +88,14 @@
 .bio-text {
     padding: 10px;
 }
+
+.gig-item {
+    background-color: #e9ecef;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.gig-item-detail {
+    padding: 10px;
+    overflow-wrap: break-word;
+}
