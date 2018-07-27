@@ -37,7 +37,11 @@ namespace BadgerBoysWebApp.Controllers
 
         public IActionResult Contact()
         {
-            return View("Contact");
+            var booking = new Booking
+            {
+                Date = DateTime.Now.Date
+            };
+            return View("Contact", model: booking);
         }
 
         public IActionResult SubmitBooking(Booking booking)
